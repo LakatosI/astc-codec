@@ -50,7 +50,7 @@ cc_library(
         "weight_infill.h",
     ],
     copts = [
-        "-Wno-unused-variable",
+        #"-Wno-unused-variable",
         "-O3",
     ],
     deps = [
